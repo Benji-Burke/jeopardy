@@ -2,7 +2,7 @@
   /* background-color: rgb(145, 135, 51); */
 }
 html {
-  background-color: #61dafb;
+  background-color: #58a3e07c;
 }
 .App {
   text-align: center;
@@ -11,13 +11,17 @@ html {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
-  
+ 
+}
+
+.title{
+ 
 }
 
 .main {
   background-color: rgb(150, 148, 165);
   color: black;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: fantasy;
 }
 
 .App-logo {
@@ -57,20 +61,35 @@ transition: all 0.3s ease 0s;
 
 .btn:hover,
 .getQuestion:hover {
-  color: #404040 !important;
+  color: #3f6cb1 !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
   background: none;
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
   transition: all 0.3s ease 0s;
+ 
+  }
+
+  .getQuestion {
+    background-color: #3f6cb1;
+  }
+
+  .revealBtn {
+    background-color: rgb(178, 80, 197);
   }
 
 
+.decrease {
+  background-color: red;
+}
 
+.increase {
+  background-color: green;
+}
 
-.getQuestion {
-
+.reset {
+  background-color: #282c34;
 }
 
 .App-header {
