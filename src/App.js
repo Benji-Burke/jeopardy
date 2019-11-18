@@ -5,7 +5,7 @@ import Score from './components/Score';
 import Question from './components/Question';
 import Answer from './components/Answer';
 import axios from 'axios';
-const url = 'https://jservice.io/api/random'
+const url = 'http://jservice.io/api/random'
 // const url = 'http://localhost:3000'
 
 
